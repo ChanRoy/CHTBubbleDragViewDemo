@@ -16,7 +16,6 @@
 		AEBECE571DC98D570017CECE /* CHTBubbleDragViewDemo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEBECE561DC98D570017CECE /* CHTBubbleDragViewDemo.bundle */; };
 		AEBECE601DC98DAD0017CECE /* UIView+CHTFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBECE5A1DC98DAD0017CECE /* UIView+CHTFrame.m */; };
 		AEBECE611DC98DAD0017CECE /* CHTBubbleDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBECE5D1DC98DAD0017CECE /* CHTBubbleDragView.m */; };
-		AEBECE621DC98DAD0017CECE /* CHTDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBECE5F1DC98DAD0017CECE /* CHTDotView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +34,7 @@
 		AEBECE5A1DC98DAD0017CECE /* UIView+CHTFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CHTFrame.m"; sourceTree = "<group>"; };
 		AEBECE5C1DC98DAD0017CECE /* CHTBubbleDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTBubbleDragView.h; sourceTree = "<group>"; };
 		AEBECE5D1DC98DAD0017CECE /* CHTBubbleDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTBubbleDragView.m; sourceTree = "<group>"; };
-		AEBECE5E1DC98DAD0017CECE /* CHTDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTDotView.h; sourceTree = "<group>"; };
-		AEBECE5F1DC98DAD0017CECE /* CHTDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTDotView.m; sourceTree = "<group>"; };
+		AEBECE631DC9E8230017CECE /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +105,7 @@
 			children = (
 				AEBECE5C1DC98DAD0017CECE /* CHTBubbleDragView.h */,
 				AEBECE5D1DC98DAD0017CECE /* CHTBubbleDragView.m */,
-				AEBECE5E1DC98DAD0017CECE /* CHTDotView.h */,
-				AEBECE5F1DC98DAD0017CECE /* CHTDotView.m */,
+				AEBECE631DC9E8230017CECE /* Define.h */,
 			);
 			path = CHTBubbleDragView;
 			sourceTree = "<group>";
@@ -188,7 +185,6 @@
 			files = (
 				AEBECE471DC98D3E0017CECE /* ViewController.m in Sources */,
 				AEBECE441DC98D3E0017CECE /* AppDelegate.m in Sources */,
-				AEBECE621DC98DAD0017CECE /* CHTDotView.m in Sources */,
 				AEBECE611DC98DAD0017CECE /* CHTBubbleDragView.m in Sources */,
 				AEBECE601DC98DAD0017CECE /* UIView+CHTFrame.m in Sources */,
 				AEBECE411DC98D3E0017CECE /* main.m in Sources */,
@@ -348,6 +344,7 @@
 				AEBECE551DC98D3E0017CECE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

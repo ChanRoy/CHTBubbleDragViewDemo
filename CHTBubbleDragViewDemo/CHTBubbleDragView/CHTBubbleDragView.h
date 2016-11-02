@@ -12,4 +12,10 @@
 
 @property (nonatomic, assign) CGFloat brokeDistance;
 
+@property (nonatomic, strong) UIColor *themeColor;
+
+@property (nonatomic, strong) UIColor *textColor;
+
+@property (nonatomic, copy) NSString *text;
+
 @end

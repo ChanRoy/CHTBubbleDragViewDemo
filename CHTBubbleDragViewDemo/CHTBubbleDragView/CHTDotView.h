@@ -11,3 +11,9 @@
 @interface CHTDotView : UIView
 
 @end
+
+@interface CHTBubbleView : UIView
+
+@property (nonatomic, strong) NSString *text;
+
+@end
